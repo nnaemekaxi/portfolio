@@ -1,0 +1,42 @@
+.Blog{
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.AddBlogButton{
+    margin: 64px auto 0;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.AddBlogButton:hover{
+    background-color: white;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+.AddBlogButton:active{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    width: 155px;
+    height: 42px;
+}
+
+.BlogProps{
+    width: 70%;
+}
+
+.BlogAside{
+    width: 25%; 
+}
+
+.BlogAsideMain{
+    border-left: 5px solid blueviolet;
+}

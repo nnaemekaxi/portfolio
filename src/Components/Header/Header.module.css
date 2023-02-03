@@ -1,0 +1,183 @@
+.Header{
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+}
+.Header button{
+    background: none;
+    border: none;
+}
+.SideBar{
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 100vh;
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    z-index: 1;
+    display: none;
+}
+.HeaderHeader{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.HeaderMain{
+    width: 30%;
+    display: flex;
+}
+.HeaderMain a{
+    text-decoration: none;
+    color: white;
+}
+.HeaderMain img{
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+.HeaderNav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.HeaderNavList1{
+    display: flex;
+    width: 60%;
+    list-style: none;
+}
+.HeaderNavList1 a{
+    text-decoration: none;
+    color: white;
+}
+.HeaderNavList1 a:hover{
+    border-bottom: 2px solid white;
+}
+.HeaderNavList2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style: none;
+}
+.HeaderNavList1El{
+    width: 100px;
+}
+.HeaderNavList2El{
+    width: 100px;
+    padding: 1%;
+    text-align: center;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.HeaderNavList2El:hover{
+    background-color: whitesmoke;
+}
+.HeaderNavList2 a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.HeaderNavList3 img{
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+@media screen and (max-width:850px) {
+    .HeaderNavList2{
+        display: none;
+    }
+    .HeaderNavList3 img{
+        display: flex;
+        align-self: center;
+    }
+    .HeaderNavList1{
+        width: 100%;
+    }
+    
+    .MenuCloser{
+        width: 10%;
+        margin: 0 0 0 auto;
+    }
+    .Closer{
+        width: 30px;
+        height: 30px;
+    }
+    .SideBar{
+        display: block;
+    }
+    .SideBarHeaderNav{
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .SideBarHeaderNavList1{
+        display: none;
+    }
+    .SideBarHeaderNavList2{
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        font-weight: bold;
+        gap: 16px;
+        list-style: none;
+    }
+    .SideBarHeaderNavList1 a, .SideBarHeaderNavList2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .SideBarHeaderNavList1 a:hover, .SideBarHeaderNavList2 a:hover{
+        border-bottom: 2px solid white;
+    }
+}
+@media screen and (max-width:500px) {
+    .HeaderNav{
+        display: none;
+    }
+    .HeaderMain{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .MenuCloser{
+        width: 15%;
+        margin: 0 0 0 auto;
+    }
+    .HeaderMain img{
+        display: flex;
+        align-self: center;
+    }
+    .SideBarHeaderNavList1{
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        font-weight: bold;
+        gap: 16px;
+        list-style: none;
+    }
+}
+@media screen and (max-width:360px){
+    .MenuCloser{
+        width: 20%;
+        margin: 0 0 0 auto;
+    }
+}
+@media screen and (max-width:210px){
+    .MenuCloser{
+        width: 25%;
+        margin: 0 0 0 auto;
+    }
+}
+@media screen and (max-width:180px){
+    .MenuCloser{
+        width: 30%;
+        margin: 0 0 0 auto;
+    }
+}

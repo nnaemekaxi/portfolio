@@ -1,0 +1,139 @@
+.BlogProps{
+    margin-top: 64px;
+    border-right: 5px solid blueviolet;
+    padding-right: 2%;
+}
+.BlogPropsTitle{
+    color: blueviolet;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 64px;
+}
+.BlogPropsMain{
+    background-color: #f6f8fc;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 2%;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+}
+.BlogAuthor, .BlogTitle, .BlogInfo{
+    text-align: center;
+}
+.BlogPropsMain img{
+    width: 100px;
+    height: 100px;
+}
+.GridBody{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+.BlogBody{
+    text-align: justify;
+}
+.ButtonsDiv{
+    margin: 32px 0 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.BlogButton{
+    width: 150px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+}
+.BlogButton:hover{
+    background-color: white;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+.BlogButton:active{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    width: 155px;
+    height: 42px;
+}
+.BlogAside{
+    margin-top: 32px;
+    padding: 0 5%;
+}
+.BlogAsideSection{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+.ComposeBlog{
+    width: 70%;
+    height: 400px;
+    margin: 64px auto 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.ComposeBlog input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+.ComposeBlog textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.ComposeBlog button{
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.BlogDetails{
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.BlogDetails h1{
+    text-align: center;
+    margin-top: 64px;
+}
+.BlogDetails h4{
+    text-align: center;
+}
+.BlogDetails img{
+    width: 200px;
+    height: 200px;
+    margin-top: 32px;
+    align-self: center;
+}
+.BlogDetails p{
+    width: 80%;
+    margin: 8px auto;
+    text-align: justify;
+}
+.BlogDetails i{
+    text-align: right;
+    margin-right: 10%;
+}
